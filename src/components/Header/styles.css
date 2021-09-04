@@ -1,0 +1,55 @@
+.header {
+    color: white;
+    position: relative;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+
+    height: 60px;
+
+    width: 100vw;
+    max-width: 100vw;
+}
+
+.header:after {
+    content: "";
+    height: 1px;
+    width: 100vw;
+    background: rgb(79, 86, 107);
+
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.header > .title {
+    font-weight: bold;
+
+    margin: auto 24px;
+
+    font-size: 18px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin: 6px 12px;
+
+    color: white;
+
+    height: 50px;
+
+}
+
+.authButtons {
+    display: flex;
+    flex-direction: row;
+
+    margin: auto 24px;
+}
