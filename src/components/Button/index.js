@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from "styled-components";
-// import './styles.css';
-// background: ${(props) => (props.solid ? "#0d84fb" : 'none')};
 
 const ButtonComponent = styled.div `
   background: #0d84fb;
